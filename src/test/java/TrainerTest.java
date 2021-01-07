@@ -6,13 +6,13 @@ public class TrainerTest {
     @Test
     public void testCreate() {
         //Given
-        Trainer trainer = new Trainer("John Doe");
+        Trainer trainer = new Trainer("Vass István");
 
         //When
         String name = trainer.getName();
 
         //Then
-        assertThat(name, equalTo("John Doe"));
+        assertThat(name, equalTo("Vass István"));
 
     }
 
